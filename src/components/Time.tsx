@@ -53,6 +53,7 @@ const Section = styled.section`
   padding: 32px;
 `;
 const H3 = styled.h3`
+  color: black;
   font-size: 32px;
   border-bottom: 4px solid;
   display: inline-block;
