@@ -15,7 +15,7 @@ const Colaborador = ({ nome, imagem, lancamento, backgroundColor }: Props) => (
     </DivCabecalho>
 
     <DivRodape>
-      <H4>{nome}</H4>
+      <H4 style={{ color: backgroundColor }}>{nome}</H4>
       <H5>{lancamento}</H5>
     </DivRodape>
   </Div>
@@ -45,7 +45,6 @@ const DivRodape = styled.div`
 `;
 
 const H4 = styled.h4`
-  color: #6278F7;
   font-size: 30px;
   line-height: 22px;
   font-weight: bold;
